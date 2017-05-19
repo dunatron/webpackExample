@@ -1,0 +1,98 @@
+h1 {
+    color: red;
+}
+.text-danger {
+    color: orangered;
+}
+.Mail-post {
+    display: block;
+    margin: auto;
+    width: 200px;
+    position: relative;
+    top:50px;
+    .triangle {
+        border-top: none;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        display: inline-block;
+        height: 25px;
+        margin-left: 20px;
+        margin-top: 55px;
+        position: relative;
+        width: 200px;
+        .left-lean {
+            height: 1px;
+            width: 200px;
+            border-top: 1px solid black;
+            transform: rotate(-33deg);
+            left: -84px;
+            position: relative;
+            top: -11px;
+        }
+        .right-lean {
+            height: 1px;
+            width: 200px;
+            border-top: 1px solid black;
+            transform: rotate(33deg);
+            right: -84px;
+            position: relative;
+            top: -13px;
+        }
+    }
+    //.triangle:before {
+    //    border-bottom: 70px solid silver;
+    //    border-left: 115px solid transparent;
+    //    border-right: 115px solid transparent;
+    //    content: "";
+    //    height: 0;
+    //    left: -15px;
+    //    position: absolute;
+    //    top: -70px;
+    //    width: 0;
+    //}
+
+    .circle {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        background-color: #FFF;
+        top: -22px;
+        right: 80px;
+        border: 1px solid black;
+    }
+
+    .input-box {
+        height: 115px;
+        width: 200px;
+        border: 1px solid black;
+        margin-left: 20px;
+        margin-top: -5px;
+        .input-wrapper {
+            position: relative;
+            top:40px;
+            input {
+                display: block;
+                margin: auto;
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+
+    .post {
+        width: 40px;
+        height: 300px;
+        border: 1px solid black;
+        border-top: 1px solid #FFF;
+        margin-left: 100px;
+        position: relative;
+        top: -1px;
+        z-index: 10;
+    }
+
+}
+
